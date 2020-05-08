@@ -20,7 +20,7 @@ namespace Prin_s_Algoritması
                 {
                     min = key[v];
                     min_index = v;
-                }
+                 }
 
             return min_index;
         }
