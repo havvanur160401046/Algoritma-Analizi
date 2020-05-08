@@ -8,4 +8,4 @@ for each [min, max] with max - min > 1 do
                 double current = t1 + t2 + score(l ! r)
                 if current > best then
                     best = current
-    score[min][max][l] = best
+    score[min][max][l] = best 
