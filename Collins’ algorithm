@@ -1,0 +1,11 @@
+for each [min, max] with max - min > 1 do
+    for each l from min to max - 2 do
+       double best = score[min][max][l]
+       for each r from l + 1 to max - 1 do
+           for each mid from l + 1 to r do
+                t1 = score[min][mid][l]
+                t2 = score[mid][max][r]
+                double current = t1 + t2 + score(l ! r)
+                if current > best then
+                    best = current
+    score[min][max][l] = best
